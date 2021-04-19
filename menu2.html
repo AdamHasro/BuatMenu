@@ -5,28 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buat Menu</title>
+    <title>Buat Menu2</title>
     <style>
         .menu_ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
-
+            overflow: hidden;
+            background-color: indigo;
         }
 
         .menu_ul li {
-            display: inline;
-
+            float: left;
         }
 
-        .menu_ul a {
+        .menu_ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
             text-decoration: none;
-            padding: 16px;
-            background-color: red;
         }
 
-        .menu_ul a:hover {
-            background-color: gray;
+        .menu_ul li a:hover {
+            background-color: darkgreen;
         }
     </style>
 </head>
@@ -34,8 +36,8 @@
 <body>
     <ul class="menu_ul">
         <ul class="menu_ul li">
-            <ul class="menu_ul a">
-                <ul class="menu_ul a:hover">
+            <ul class="menu_ul li a">
+                <ul class="menu_ul li a:hover">
 
                     <li><a href="#utama">Laman Utama</a></li>
                     <li><a href="#produk">Senarai Nama</a></li>
@@ -47,8 +49,8 @@
         </ul>
     </ul>
 
-    <h1>SILA TEKAN DIATAS</h1>
+    <h1>SILA TEKAN LINK DIATAS</h1>
 
 </body>
 
-</html>
+</html
